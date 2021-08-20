@@ -4,6 +4,6 @@ on: push
 
 stage:
   ubuntu: 
-   runs-on: ubuntu-latest
-    steps:
-     - run: date
+  runs-on: ubuntu-latest
+  steps:
+  - run: date
