@@ -2,8 +2,8 @@ name: test
 
 on: push
 
-stage:
-  ubuntu: 
+jobs:
+  staging: 
   runs-on: ubuntu-latest
   steps:
   - run: date
