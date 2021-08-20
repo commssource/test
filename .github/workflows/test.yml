@@ -1,0 +1,9 @@
+name: test
+
+on: push
+
+stage:
+  ubuntu:
+   runs-on:
+    step:
+     - run: date
