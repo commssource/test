@@ -3,7 +3,7 @@ name: test
 on: push
 
 stage:
-  ubuntu: ubuntu-latest
-   runs-on:
+  ubuntu: 
+   runs-on: ubuntu-latest
     step:
      - run: date
